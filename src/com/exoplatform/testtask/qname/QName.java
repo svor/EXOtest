@@ -21,7 +21,7 @@ public class QName {
 		}
 		else {
 			prefix = "";
-			localName = "";
+			localName = name;
 		}
 	}
 	public String getLocalName(){

@@ -1,7 +1,5 @@
 package com.exoplatform.testtask.qname;
 
-import java.util.regex.*;
-
 public class Parser {
 	
 	private final String NONSPACE_REGULAR_EXPRESSION = "[[\\w\\W]&&[^\\s/:*'\"|\\[\\]]]{1}";
